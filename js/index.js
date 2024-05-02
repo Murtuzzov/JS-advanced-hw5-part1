@@ -94,3 +94,38 @@
 // diskDThird.addEventListener("mouseout", () => {
 //   diskDThird.style.fontWeight = "normal";
 // });
+
+//ЗАДАНИЕ No3
+// const bookList = document.querySelector(".books");
+// let clickedBook = "";
+
+// bookList.addEventListener("click", (event) => {
+//   if (event.target.classList.contains("book")) {
+//     if (clickedBook) {
+//       clickedBook.classList.remove("bgcolor-book");
+//     }
+//     clickedBook = event.target;
+//     clickedBook.classList.toggle("bgcolor-book");
+//   }
+// });
+
+
+//ЗАДАНИЕ No4
+// const textAreaBox = document.querySelector(".box");
+// const textArea = document.querySelector(".text-area");
+// const text = document.querySelector(".text");
+
+// document.addEventListener("keydown", (event) => {
+//   if (event.ctrlKey && event.code === "KeyI") {
+//     textArea.style.display = "block";
+//     textArea.textContent = text.textContent;
+//     text.textContent = "";
+//   }
+// });
+
+// document.addEventListener("keydown", (event) => {
+//   if (event.ctrlKey && event.code === "KeyY") {
+//     textArea.style.display = "none";
+//     text.textContent = textArea.value;
+//   }
+// });
